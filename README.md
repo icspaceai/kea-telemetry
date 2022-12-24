@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Kea Telemetry App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](images/kea-ui-v0.2.0.png)
+
+## kea-dev-board (Server) —> kea-telemetry-app (Client)
+
+Example JSON sent from server:
+```
+{"altitude":"0.200363","pitch":"0.076426","roll":"0.000000","yaw":"0.104550"}
+```
 
 ## Available Scripts
 
