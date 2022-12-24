@@ -3,7 +3,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import * as d3 from "d3";
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-
+import logo from './parrot.svg'
 
 export default function App() {
   return (
@@ -16,11 +16,20 @@ export default function App() {
 
 function TelemtryNavBar() {
   return (
-    <Navbar bg="light">
-        <Container>
-          <Navbar.Brand href="">KEA</Navbar.Brand>
-        </Container>
-      </Navbar>
+    <Navbar bg="dark" variant="dark">
+    <Container>
+      <Navbar.Brand href="#home">
+        <img
+          alt=""
+          src={logo}
+          width="30"
+          height="30"
+          className="d-inline-block align-top"
+        />{' '}
+        KEA
+      </Navbar.Brand>
+    </Container>
+  </Navbar>
     )
 }
 
